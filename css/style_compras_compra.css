@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Tauri", sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #dc143c;
+    font-weight: 400;
+    width: 100%;
+    height: 50px;
+}
+
+header a {
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 28px;
+}
+
+.box-pagamentos {
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+}
+
+table{
+    width: 100%;
+    height: 100px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #dc143c;
+}
+
+th {
+    color: #000;
+    background-color: #ada5a5;
+}
+
+table, th, td {
+    border-left: 1px solid #dc143c;
+    border-right: 1px solid #dc143c;
+}
+
+.div-pagamentos2 {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 100px;
+    padding: 30px;
+}
+
+.button {
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    background-color: #dc143c;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+}

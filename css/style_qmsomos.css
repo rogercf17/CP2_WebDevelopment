@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #dc143c;
+    font-weight: 400;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    font-family: "Tauri", sans-serif;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.corpo{
+    font-family: "Tauri", sans-serif;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+    text-align: center;
+}
+
+footer {
+    background-color: #dc143c;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+
+header h1{
+    color: black;
+}
