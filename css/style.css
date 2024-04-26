@@ -55,13 +55,13 @@ section .div1 {
     margin: 20px;
     height: 600px;
     width: 80%;
-    background-image: url("img/img1.png");
+    background-image: url("../img/img1.png");
     background-size: cover;
 }
 
 section .div2 {
     margin: 20px;
-    background-image: url("img/img2.png");
+    background-image: url("../img/img2.png");
     background-size: cover;
     height: 600px;
     width: 80%;
