@@ -1,36 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Tauri&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../css/style_produto.css">
-        <title>Produtos</title>
-    </head>
-    <body>
-        <header>
-            <h1>Vinheria Agnello</h1>
-                <br>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
-                    <li><a href="compras.html">Compras</a></li>
-                    <li><a href="qmsomos.html">Quem Somos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-        </header>
-        <h2>Tipos de Vinhos</h2>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tauri&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Rouge+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style_produto.css">
+    
+    <title>Produtos</title>
+</head>
+
+<body>
+    <header>
+        <h1><a href="../index.html">Vinheria Agnello</a></h1>
         <br>
-        <section>
-            <h3>Vinhos tinto <img src="../img\vinho-tinto.jpg" alt=" Vinho Tinto"><br><a class="link1" href="compras-tinto.html">Comprar</a></h3>
-            <h3>Vinhos rosé<img src="../img/vinho-roise.jpg" alt="Vinho Rose"><br><a class="link1" href="compras-rose.html">Comprar</a></h3>
-            <h3>Vinhos branco<img src="../img\vinho-branco.jpg" alt="vinho Branco"><br><a class="link1" href="compras-branco.html">Comprar</a></h3>
-            <h3>Vinhos espumante<img src="../img\espumante.jpg" alt="Espumante"><br><a class="link1" href="compras-espumante.html">Comprar</a></h3>
-        </section>
-        <footer>
-            <p>2024 Todos os direitos reservados</p>
-        </footer>
-    </body>
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="produtos.html">Vinhos</a>
+                    <ul class="submenuprod">
+                        <li><a href="../pages/produtos.html">Branco</a></li>
+                        <li><a href="../pages/produtos.html#espumante">Espumante</a></li>
+                        <li><a href="../pages/produtos.html#rose">Rosé</a></li>
+                        <li><a href="../pages/produtos.html#tinto">Tinto</a></li>
+                    </ul>
+                </li>
+                <li><a href="compras.html">Compras</a></li>
+                <li><a href="qmsomos.html">Quem Somos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+
+                <a class="loginlink" href="../pages/login.html">Login</a>
+
+
+                  
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+      
+        <h2>Vinhos</h2> <br><br>
+        <ul></ul>
+
+        <div>
+            <section>
+                <div class="tipos">
+                    <div class="subtitulos">
+                        <h3 id="branco">Branco</h3>
+                    </div>
+
+                    <div>
+                        <fieldset class="fieldset">
+
+                            <h4>Vinho Seco Branco Natural Blanco de Rulo<br><br><img src="../img\vinhobranco1.webp"
+                                    alt=" Vinho branco 1">
+                                <p>R$ 149,00</p> <a class="link1" href="compras-branco1.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-branco">Sugestão de consumo</a>
+                                </p>
+                            </h4>
+                        </fieldset>
+
+                        <fieldset class="fieldset">
+                            <h4>Vinho Seco Natural Branco Cântico - Chardonnay, 2020<br><br><img
+                                    src="../img/vinhobranco2.webp" alt="Vinho branco 2">
+                                <p>R$ 180,00</p> <a class="link1" href="compras-branco2.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-branco">Sugestão de consumo</a>
+                                </p>
+                            </h4>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <h4>Vinho Branco Infinitum, Blend - 2019<br><br><img src="../img\vinho-branco.jpg"
+                                    alt="vinho Branco">
+                                <p>R$ 60,99</p> <a class="link1" href="compras-branco3.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-branco">Sugestão de consumo</a>
+                                </p>
+                            </h4>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <h4>Vinho Branco Picum - Chenin Blanc Moscatel, 2022<br><br><img
+                                    src="../img\vinhobranco4.webp" alt="branco4">
+                                <p>R$ 79,90</p><a class="link1" href="compras-branco4.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-branco">Sugestão de consumo</a>
+                                </p>
+                            </h4>
+                        </fieldset>
+                    </div>
+                </div>
+                <br><br><br>
+
+                <div class="tipos">
+                    <div class="subtitulos">
+                        <h3 id="espumante">Espumante</h3><br>
+                    </div>
+                    <div>
+                        <fieldset class="fieldset">
+
+                            <h4>Sidra Lagar de Camin - Espumante<br><br><img src="../img\espumante1.webp"
+                                    alt=" Vinho Tinto">
+                                <p>R$ 86,00</p><a class="link1" href="compras-espumante1.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-espumante">Sugestão de
+                                        consumo</a></p>
+                            </h4>
+                        </fieldset>
+
+                        <fieldset class="fieldset">
+                            <h4>Sidra Puma Aurea Brut<br><br><br><img src="../img/espumante2.jpg" alt="Vinho Rose">
+                                <p>R$ 191,00</p><a class="link1" href="compras-espumante2.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-espumante">Sugestão de
+                                        consumo</a></p>
+                            </h4>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <h4>Vinho Espumante italiano La Torre Franciacorta DOCG Brut<br><br><img
+                                    src="../img\espumante3.webp" alt="vinho Branco">
+                                <p>R$ 398,00</p><a class="link1" href="compras-espumante3.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-espumante">Sugestão de
+                                        consumo</a></p>
+                            </h4>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <h4>Espumante Brut Branco Regeneration - Chardonnay, 2022<br><br><img
+                                    src="../img\espumante.jpg" alt="Espumante">
+                                <p>R$ 180,00</p><a class="link1" href="compras-espumante4.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-espumante">Sugestão de
+                                        consumo</a></p>
+                            </h4>
+                        </fieldset>
+                    </div>
+                </div><br><br><br>
+
+                <div class="tipos">
+                    <div class="subtitulos">
+                        <h3 id="rose">Rosé</h3>
+                    </div><br>
+                    <div>
+                        <fieldset class="fieldset">
+                            <h4>Vinho Seco Natural Rosé Matias Morcos - Criolla, 2021
+                                <br><br>
+                                <img src="../img\rose1.webp" alt=" Vinho Tinto">
+                                <p>R$ 139,00</p> <a class="link1" href="compras-rose1.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-rose">Sugestão de consumo</a>
+                                </p>
+                            </h4>
+                        </fieldset>
+
+                        <fieldset class="fieldset">
+                            <h4>Vinho Seco Orgânico Rose Guardian De Los Vinedos - Merlot, 2023
+                                <img src="../img\rose2.webp" alt="Vinho Rose">
+                                <p>R$ 129.00</p> <a class="link1" href="compras-rose2.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-rose">Sugestão de consumo</a>
+                                </p>
+                            </h4>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <h4>Vinho Rose Picum - Blend - 2022<br><br><br><img src="../img\vinho-roise.jpg"
+                                    alt="vinho Branco">
+                                <p>R$ 89,00</p> <a class="link1" href="compras-rose3.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-rose">Sugestão de consumo</a>
+                                </p>
+                            </h4>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <h4>Vinho Rose Funckenhausen - Blend, 2020<br><br>
+                                <img src="../img\rose4.webp" alt="Espumante">
+                                <p>R$ 195,00</p><a class="link1" href="compras-rose4.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-rose">Sugestão de consumo</a>
+                                </p>
+                            </h4>
+                        </fieldset>
+                    </div>
+                </div>
+                <br><br><br>
+
+                <div class="tipos">
+                    <div class="subtitulos">
+                        <h3 id="tinto">Tinto</h3>
+                    </div><br>
+                    <div>
+                        <fieldset class="fieldset">
+
+                            <h4>Vinho Tinto Natural Tinto de Rulo - Pipeño, 2020<br><br>
+                                <img src="../img\tinto1.webp" alt=" Vinho Tinto">
+                                <p>R$ 99,90</p> <a class="link1" href="compras-tinto1.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-tinto">Sugestão de consumo</a>
+                                </p>
+                            </h4>
+                        </fieldset>
+
+                        <fieldset class="fieldset">
+                            <h4>Vinho Orgânico Tinto Reserva Guardian De Los Vinedos - Cabernet Franc, 2022
+                                <img src="../img/tinto2.webp" alt="Vinho Rose">
+                                <p>R$ 169,00</p> <a class="link1" href="compras-tinto2.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-tinto">Sugestão de consumo</a>
+                                </p>
+                            </h4>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <h4>Vinho Tinto Tinto de Rulo - Cinsault, 2020
+                                <br><br><img src="../img\tinto3.webp" alt="vinho Branco">
+                                <p>R$ 60,00</p> <a class="link1" href="compras-tinto3.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-tinto">Sugestão de consumo</a>
+                                </p>
+                            </h4>
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <h4>Vinho Seco Natural Tinto Cântico - Cabernet Sauvignon, 2019
+                                <img src="../img\vinho-tinto.jpg" alt="Tinto Cabernet Sauvignon 2019">
+                                <p>R$ 129,00</p><a class="link1" href="compras-tinto4.html">Comprar</a>
+                                <p><a class="sugestão" href="sugestao-consumo.html#vinho-tinto">Sugestão de consumo</a>
+                                </p>
+                            </h4>
+                        </fieldset>
+                    </div>
+                </div>
+                <br><br>
+            </section>
+        </div>
+
+
+    </main>
+    <footer>
+        <p>2024 Todos os direitos reservados</p>
+    </footer>
+</body>
+
 </html>

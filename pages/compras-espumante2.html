@@ -10,47 +10,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tauri&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Rouge+Script&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <header>
-
         <h1><a href="../index.html">Vinheria Agnello</a></h1>
         <br>
         <nav>
             <ul class="menu">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="produtos.html">Vinhos</a>
+                <li><a href="../pages/produtos.html">Vinhos</a>
                     <ul class="submenuprod">
-                        <li><a href="#">Branco</a></li>
-                        <li><a href="#">Espumante</a></li>
-                        <li><a href="#">Rosé</a></li>
-                        <li><a href="#">Tinto</a></li>
+                        <li><a href="../pages/produtos.html">Branco</a></li>
+                        <li><a href="../pages/produtos.html#espumante">Espumante</a></li>
+                        <li><a href="../pages/produtos.html#rose">Rosé</a></li>
+                        <li><a href="../pages/produtos.html#tinto">Tinto</a></li>
                     </ul>
                 </li>
                 <li><a href="compras.html">Compras</a></li>
                 <li><a href="qmsomos.html">Quem Somos</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                <a class="loginlink" href="https://www.google.com">Login</a>
-                <a class="return" href="../pages/produtos.html">Voltar</a>
+                <a class="loginlink" href="../pages/login.html">Login</a>
+                <a class="return" href="../pages/produtos.html#espumante">Voltar</a>
             </ul>
         </nav>
-
-        
     </header>
     <main>
-        <h2>
-            Vinho Tinto de Rulo - Pipeño, 2020
-        </h2>
+        <h1>
+            Sidra Puma Aurea Brut
+        </h1>
         <section class="box-pagamentos">
             <div class="div-pagamentos1">
-                <img src="../img/vinho-tinto.jpg" alt="Vinho Tinto">
+                <img src="../img/espumante2.jpg" alt="Espumante">
                 <br>
                 <table>
                     <tr>
@@ -61,16 +61,16 @@
                         <th>Teor Alcóolico</th>
                     </tr>
                     <tr>
-                        <td>Chile</td>
+                        <td>Argentina</td>
                         <td>Natural</td>
-                        <td>2020</td>
-                        <td>País</td>
-                        <td>13,0%</td>
+                        <td>2022</td>
+                        <td>Chardonnay</td>
+                        <td>11,0%</td>
                     </tr>
                 </table>
             </div>
             <div class="div-pagamentos2">
-                <label for="cupom">Cumpom: </label>
+                <label for="cupom">Cupom: </label>
                 <input type="text" placeholder="Insira o cupom" class="type-text" id="cupom">
                 <br>
                 <br>
@@ -78,21 +78,13 @@
                 <input type="number" placeholder="Quantidade" class="type-text" id="numero">
                 <br>
                 <br>
-                <input type="submit" value="Comprar Agora" class="button" onclick="comprarTinto()">
+                <input type="submit" value="Comprar Agora" class="button" onclick="comprarEspumante2()">
                 <br>
                 <br>
                 <div id="resultado"></div>
             </div>
         </section>
-
-        <section>
-
-            
-        </section>
     </main>
-    <footer>
-        <p>2024 Todos os direitos reservados</p>
-    </footer>
     <script src="../js/compra.js"></script>
 </body>
 

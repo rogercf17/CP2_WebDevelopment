@@ -1,38 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Tauri&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
 
-    <body>
-        <header>
-            <div id="ageModal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <h2>Confirmação de Idade</h2>
-                    <p>Você precisa ter pelo menos 18 anos para acessar este site.</p>
-                    <input type="number" id="ageInput" placeholder="Informe sua idade">
-                    <button onclick="checkAge()">Confirmar</button>
-                    <script src="js/idade_do_usuario.js"></script>
-                    <link rel="stylesheet" type="text/css" href="css/style_idade_do_usuario.css">
-                </div>
-            </div>
-            <h1>Vinheria Agnello</h1>
-            <br>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/produtos.html">Produtos</a></li>
-                <li><a href="pages/compras.html">Compras</a></li>
-                <li><a href="pages/qmsomos.html">Quem Somos</a></li>
-                <li><a href="pages/contato.html">Contato</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tauri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Rouge+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="../index.html">Vinheria Agnello</a></h1>
+        <br>
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/produtos.html">Vinhos</a>
+                    <ul class="submenuprod">
+                        <li><a href="../pages/produtos.html">Branco</a></li>
+                        <li><a href="../pages/produtos.html#espumante">Espumante</a></li>
+                        <li><a href="../pages/produtos.html#rose">Rosé</a></li>
+                        <li><a href="../pages/produtos.html#tinto">Tinto</a></li>
+                    </ul>
+                </li>
+                <li><a href="../pages/compras.html">Compras</a></li>
+                <li><a href="../pages/qmsomos.html">Quem Somos</a></li>
+                <li><a href="../pages/contato.html">Contato</a></li>
+                <a class="loginlink" href="../pages/login.html">Login</a>
             </ul>
-        </header>
+        </nav>
+
+
+
+    </header>
+    <main>
+
+        <div id="ageModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Confirmação de Idade</h2>
+                <p>Você precisa ter pelo menos 18 anos para acessar este site.</p>
+                <input type="number" id="ageInput" placeholder="Informe sua idade">
+                <button onclick="checkAge()">Confirmar</button>
+                <script src="../js/idade_do_usuario.js"></script>
+                <link rel="stylesheet" type="text/css" href="../css/style_idade_do_usuario.css">
+            </div>
+        </div>
+
         <section>
             <div class="div1"></div>
             <div class="div2"></div>
@@ -48,7 +69,8 @@
                         </a>
                     </div>
                     <div>
-                        <a href="https://www.lavinheria.com/os-mitos-mais-comuns-sobre-vinhos-naturais-e-organicos" target="_blank">
+                        <a href="https://www.lavinheria.com/os-mitos-mais-comuns-sobre-vinhos-naturais-e-organicos"
+                            target="_blank">
                             <img src="img/img4.png" alt="Imagem do vinho orgânico" class="img">
                             <h3 class="texto h3">Mitos sobre vinhos orgânicos!</h3>
                             <p class="texto p">Não acredite em tudo que ouve</p>
@@ -64,8 +86,10 @@
                 </div>
             </div>
         </section>
-        <footer>
-            <p>2024 Todos os direitos reservados</p>
-        </footer>
-    </body>
+    </main>
+    <footer>
+        <p>2024 Todos os direitos reservados</p>
+    </footer>
+</body>
+
 </html>

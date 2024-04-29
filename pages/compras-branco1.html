@@ -3,16 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style_compras_compra.css">
+    <title>Detalhes Vinho Tinto</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tauri&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Rouge+Script&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style_compras.css">
-    <title>Compras</title>
 </head>
 
 <body>
@@ -22,7 +25,7 @@
         <nav>
             <ul class="menu">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="produtos.html">Vinhos</a>
+                <li><a href="../pages/produtos.html">Vinhos</a>
                     <ul class="submenuprod">
                         <li><a href="../pages/produtos.html">Branco</a></li>
                         <li><a href="../pages/produtos.html#espumante">Espumante</a></li>
@@ -34,33 +37,55 @@
                 <li><a href="qmsomos.html">Quem Somos</a></li>
                 <li><a href="contato.html">Contato</a></li>
                 <a class="loginlink" href="../pages/login.html">Login</a>
+                <a class="return" href="../pages/produtos.html">Voltar</a>
             </ul>
         </nav>
     </header>
+    <h2>
+        Vinho Seco Branco Natural Blanco de Rulo
+    </h2>
     <main>
-        <section class="box-form">
-            <form class="form">
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" placeholder="Digite seu nome">
+        <section class="box-pagamentos">
+            <div class="div-pagamentos1">
+                <img src="../img/vinhobranco1.webp" alt="Vinho Branco">
                 <br>
-                <label for="cpf">CPF:</label>
-                <input type="text" name="cpf" placeholder="Digite seu CPF">
+                <table>
+                    <tr>
+                        <th>País</th>
+                        <th>Produção</th>
+                        <th>Safra</th>
+                        <th>Uva</th>
+                        <th>Teor Alcóolico</th>
+                    </tr>
+                    <tr>
+                        <td>Bolívia</td>
+                        <td>Natural</td>
+                        <td>2019</td>
+                        <td>Chardonnay</td>
+                        <td>12,5%</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="div-pagamentos2">
+                <label for="cupom">Cupom: </label>
+                <input type="text" placeholder="Insira o cupom" class="type-text" id="cupom">
                 <br>
-                <label for="forma-pagamento">Forma de Pagamento:</label>
-                <select>
-                    <option>Débito</option>
-                    <option>Crédito</option>
-                    <option>Pix</option>
-                </select>
+                <br>
+                <label for="numero">Qntd Garrafas: </label>
+                <input type="number" placeholder="Quantidade" class="type-text" id="numero">
                 <br>
                 <br>
-                <button class="button">Enviar</button>
-            </form>
+                <input type="submit" value="Comprar Agora" class="button" onclick="comprarBranco1()">
+                <br>
+                <br>
+                <div id="resultado"></div>
+            </div>
         </section>
     </main>
     <footer>
         <p>2024 Todos os direitos reservados</p>
     </footer>
+    <script src="../js/compra.js"></script>
 </body>
 
 </html>

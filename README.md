@@ -24,3 +24,11 @@ Como Contribuir
 Se deseja contribuir com o projeto, sinta-se à vontade para fazer um fork deste repositório, fazer as alterações desejadas e enviar um pull request. Será um prazer analisar suas contribuições.
 
 Este projeto é apenas uma simulação para fins educacionais. A Vinheria Agnello é uma empresa fictícia e todas as informações aqui contidas são fictícias.
+
+## Autores
+
+Este projeto foi desenvolvido por:
+Gabriel Machado Lacerda                RM:556714   TURMA: 1ESPW
+João Pedro Signor Avelar               RM:558375
+Roger Cardoso Ferreira                 RM:557230
+Vinicius Augusto Siqueira Gonçalves    RM:557065
