@@ -12,6 +12,17 @@
 
     <body>
         <header>
+            <div id="ageModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Confirmação de Idade</h2>
+                    <p>Você precisa ter pelo menos 18 anos para acessar este site.</p>
+                    <input type="number" id="ageInput" placeholder="Informe sua idade">
+                    <button onclick="checkAge()">Confirmar</button>
+                    <script src="js/idade_do_usuario.js"></script>
+                    <link rel="stylesheet" type="text/css" href="css/style_idade_do_usuario.css">
+                </div>
+            </div>
             <h1>Vinheria Agnello</h1>
             <br>
             <ul>
