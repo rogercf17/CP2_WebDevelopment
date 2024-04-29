@@ -14,13 +14,12 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 main {
     flex: 1 0 auto;
-    padding-top: 40px;
     padding-bottom: 40px;
-
 }
 
 header {
@@ -205,9 +204,8 @@ section {
 }
 
 section .div1 {
-    margin: 20px;
     height: 600px;
-    width: 80%;
+    width: 100%;
     background-image: url("../img/img1.png");
     background-size: cover;
 }
@@ -235,7 +233,7 @@ section .div3 {
 
 .img {
     width: 300px;
-    height: 400px;
+    height: auto ;
 }
 
 .div3 .box-noticias {
