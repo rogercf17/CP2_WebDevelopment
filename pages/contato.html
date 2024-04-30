@@ -40,6 +40,18 @@
     <h1>Contato</h1>
     <br>
     <main>
+        <form>
+            <h2>Formulário de Contato</h2>
+            <label>Nome</label>
+            <input type="text" id="nome">
+            <label>Telefone</label>
+            <input type="tel" id="telefone">
+            <label>Email</label>
+            <input type="email" id="email">
+            <label>Mensagem</label>
+            <textarea id="mensagem" placeholder="Digite sua mensagem..." cols="30" rows="10"></textarea>
+            <button type="submit" id="btnEnviar" onclick="popup()">Enviar</button>
+        </form>
         <section>
             <h1>Central de Atendimento ao Cliente</h1>
             <p>11997755426</p>
@@ -61,14 +73,11 @@
             </p><br>
 
         </section>
-
-        <form>
-
-        </form>
     </main>
     <footer>
         <p>2024 Todos os direitos reservados</p>
     </footer>
+    <script src="../js/contato.js"></script>
 </body>
 
 </html>
