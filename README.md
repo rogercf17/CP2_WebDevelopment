@@ -1,7 +1,7 @@
 Readme do Projeto Vinheria Agnello
 Este repositório contém os arquivos HTML e CSS para o site da Vinheria Agnello, uma vinícola fictícia. O site tem como objetivo apresentar os produtos da vinícola, informações sobre a empresa, formas de contato e permite aos usuários fazerem compras.
 
-Estrutura de Arquivos
+Estrutura de Arquivos\
 O projeto está organizado da seguinte forma:
 
 index.html: Página inicial do site, fornecendo links para outras seções como produtos, compras, quem somos e contato.
@@ -27,8 +27,9 @@ Este projeto é apenas uma simulação para fins educacionais. A Vinheria Agnell
 
 ## Autores
 
-Este projeto foi desenvolvido por:
-Gabriel Machado Lacerda                RM:556714   TURMA: 1ESPW
-João Pedro Signor Avelar               RM:558375
-Roger Cardoso Ferreira                 RM:557230
+Este projeto foi desenvolvido por:\
+TURMA: 1ESPW\
+Gabriel Machado Lacerda                RM:556714\  
+João Pedro Signor Avelar               RM:558375\
+Roger Cardoso Ferreira                 RM:557230\
 Vinicius Augusto Siqueira Gonçalves    RM:557065
