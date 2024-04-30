@@ -67,6 +67,10 @@ header {
     color: #000000;
 }
 
+.submenuprod li a:hover {
+    color: #ffffff;
+}
+
 li:hover {
     background-color: #771b35;
 }
