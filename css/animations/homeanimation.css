@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.logos{
+    background-color: #d4cacd;
+    width: 100%;
+    height: 96px;
+    overflow: hidden;
+    padding: 10px;
+    white-space: nowrap;
+    position: relative;
+
+}
+
+.logos:before, .logos:after{
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before{
+    left: 0;
+    background: linear-gradient(to left, #d1141400, #d4cacd);
+}
+
+.logos:after{
+    right: 0;
+    background: linear-gradient(to right,  #d1141400, #d4cacd);
+}
+
+.logos-slide{
+    display: inline-flexbox;
+    animation: 40s slide infinite linear;
+}
+
+.logo-slide img {
+    height: 50px;
+}
+
+.logocupom{
+    width: auto;
+    height: 70px;
+}
+
+.logoanima{
+    border-radius: 50px;
+}
+
+.codigo{
+    background-color: #851818;
+    color: white;
+    height: 40px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.logofrete{
+    color: rgb(32, 31, 31);
+    font-size: 25px;
+}
+
+.logos .logos-slide .codigo b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

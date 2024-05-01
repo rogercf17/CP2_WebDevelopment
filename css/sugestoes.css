@@ -64,12 +64,17 @@ header {
 }
 
 .submenuprod li a {
-
     color: #000000;
+    display: flex;
+    text-align: left;
 }
 
 .menu li:hover {
     background-color: #771b35;
+}
+
+.submenuprod li a:hover {
+    color: #ffffff;
 }
 
 
